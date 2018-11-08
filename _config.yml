@@ -1,17 +1,17 @@
 # Site settings
-title: 梁璇 Blog
-SEOTitle: 陈奕璇和梁楠楠的博客
+title: e轩 Blog
+SEOTitle: Vue 前端 js UI 摄影
 header-img: img/post-bg-coffee.jpeg 
 email: qingdaochenyixuan@gmail.com
-description: "程序员秀起恩爱，就没你们什么事了"
-keyword: "梁楠楠和陈奕璇的博客, 陈奕璇,梁楠楠"
+description: "Vue 前端 js UI 摄影"
+keyword: "Vue 前端 js UI 摄影"
 url: "http://qdchenyixuan.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/qdchenyixuan/qdchenyixuangithub.io.git" # you code repository
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "一个记录我们生活的安静小站"
+sidebar-about-description: "一个与世无争的小站"
 sidebar-avatar: /img/DdalQpjV0AAGINA (1).jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
