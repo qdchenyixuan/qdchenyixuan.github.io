@@ -604,6 +604,9 @@ pre code {
     font-size: 20px;
   }
 }
+.post-preview{
+  box-shadow: 0 5px 10px rgba(0,0,0,0.16);
+}
 .post-preview > a {
   color: #404040;
 }
