@@ -99,7 +99,7 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "不需要友链",
+        title: "暂无友链",
         href: ""
     }
 ]
