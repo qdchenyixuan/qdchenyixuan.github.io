@@ -1,5 +1,7 @@
 ### 博客首页：[点击](https://qdchenyixuan.github.io/)
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/qdchenyixuan/qdchenyixuan.github.io.svg)](https://greenkeeper.io/)
+
 ## 致敬  
 [GitHub Pages](https://pages.github.com/)  
 [jekyll](http://jekyll.com.cn/)  
