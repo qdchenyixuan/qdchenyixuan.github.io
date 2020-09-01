@@ -1,0 +1,759 @@
+<html>
+  <head>
+    <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>常见前端代码整理 | ClearChan&#39;s Blog</title>
+<meta name="description" content="已识乾坤大，犹怜草木青" />
+<link rel="shortcut icon" href="https://clearchan.gitee.io/page/favicon.ico?v=1598934197479">
+<!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+  integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"> -->
+<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css"> -->
+<link rel="stylesheet" href="https://clearchan.gitee.io/page/styles/main.css">
+<!-- <link rel="stylesheet" href="https://clearchan.gitee.io/page/styles/alll.css"> -->
+
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+<!-- <script src="https://lib.baomitu.com/highlight.js/9.15.10/highlight.min.js"></script> -->
+<!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700"> -->
+
+
+<!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-116383479-1"></script> -->
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag('js', new Date());
+
+  gtag('config', 'UA-116383479-1');
+</script>
+
+  </head>
+  <body>
+    <div class="main">
+      <div class="main-content">
+        <div class="site-header">
+  <a href="https://clearchan.gitee.io/page">
+  <img class="avatar" src="https://clearchan.gitee.io/page/images/avatar.png?v=1598934197479" alt="">
+  </a>
+  <h1 class="site-title">
+    ClearChan&#39;s Blog
+  </h1>
+  <p class="site-description">
+    已识乾坤大，犹怜草木青
+  </p>
+  <div class="menu-container">
+    
+      
+        <a href="/" class="menu">
+          首页
+        </a>
+      
+    
+      
+        <a href="/post/about" class="menu">
+          关于
+        </a>
+      
+    
+  </div>
+  <div class="social-container">
+    
+      
+        <a href="qdchenyixuan" target="_blank">
+          <i class="fab fa-github"></i>
+        </a>
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+</div>
+
+        <div class="post-detail">
+          <article class="post">
+            <h2 class="post-title">
+              常见前端代码整理
+            </h2>
+            <div class="post-info">
+              <span>
+                2019-09-03
+              </span>
+              <span>
+                13 min read
+              </span>
+              
+            </div>
+            
+              <img class="post-feature-image" src="https://clearchan.gitee.io/page/post-images/chang-jian-bu-ju.jpg" alt="">
+            
+            <div class="post-content-wrapper">
+              <div class="post-content">
+                <h2 id="水平居中">水平居中</h2>
+<h3 id="行内元素">行内元素</h3>
+<pre><code class="language-css">.parent {
+  text-align: center;
+}
+</code></pre>
+<h3 id="块级元素注意子元素要设置宽度">块级元素（注意子元素要设置宽度）</h3>
+<pre><code class="language-css">.parent {
+  text-align: center;
+}
+.child {
+  width: 100px;
+  margin: auto;
+  border: 1px solid blue;
+}
+</code></pre>
+<h2 id="垂直居中">垂直居中</h2>
+<h3 id="张鑫旭-绝对定位-marginauto">张鑫旭 绝对定位 + margin:auto</h3>
+<pre><code class="language-css">.parent {
+  position: relative;
+  height: 200px;
+}
+.child {
+  width: 80px;
+  height: 40px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+</code></pre>
+<h3 id="table-布局">table 布局</h3>
+<pre><code class="language-css">.parent {
+  display: table;
+  width: 80px;
+  height: 40px;
+}
+.child {
+  display: table-cell;
+  vertical-align: middle;
+}
+</code></pre>
+<h2 id="多行文字-table">多行文字 table</h2>
+<pre><code class="language-css">/* 多行文字 */
+.parent {
+  width: 400px;
+  height: 300px;
+  display: table-cell;
+  vertical-align: middle;
+  border: 1px solid red;
+}
+.child {
+  display: inline-block;
+  vertical-align: middle;
+  background: blue;
+}
+</code></pre>
+<h3 id="不知道自己高度和父容器高度的情况下-利用绝对定位只需要以下三行">不知道自己高度和父容器高度的情况下, 利用绝对定位只需要以下三行：</h3>
+<pre><code class="language-css">parent {
+  position: relative;
+}
+
+child {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+</code></pre>
+<h3 id="flex">Flex</h3>
+<pre><code class="language-css">
+parent{
+    display:flex;/*Flex布局*/
+    display: -webkit-flex; /* Safari */
+    align-items:center;/*指定垂直居中*
+    }
+</code></pre>
+<h3 id="块级元素绝对定位-transform">块级元素：绝对定位 + transform</h3>
+<pre><code class="language-css">.parent {
+  position: relative;
+  height: 200px;
+}
+.child {
+  width: 80px;
+  height: 40px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background: blue;
+}
+</code></pre>
+<hr>
+<h3 id="图片超出部分居中裁剪">图片超出部分居中裁剪</h3>
+<pre><code class="language-css">img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  height: 60%;
+  width: auto;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+</code></pre>
+<h3 id="获取屏幕宽高">获取屏幕宽高</h3>
+<pre><code class="language-javascript">document.documentElement.clientWidth;
+document.documentElement.clientHeight;
+</code></pre>
+<h3 id="文字图片同一行居中">文字图片同一行居中</h3>
+<pre><code class="language-css">vertical-align: middle;
+//给文字添加
+</code></pre>
+<h3 id="mac命令行本次都使用最高权限">Mac命令行本次都使用最高权限</h3>
+<pre><code>sudo -i
+</code></pre>
+<h3 id="查看本机-ip">查看本机 ip</h3>
+<pre><code>ipconfig getifaddr en0
+</code></pre>
+<h3 id="nginx-某些图片-403">Nginx 某些图片 403</h3>
+<pre><code>user root owner;
+</code></pre>
+<h3 id="原生-dom-操作父子节点">原生 dom 操作父子节点</h3>
+<pre><code class="language-js">var a = document.getElementById(&quot;dom&quot;);
+del_space(a); //清理空格
+var b = a.childNodes; //获取a的全部子节点；
+var c = a.parentNode; //获取a的父节点；
+var d = a.nextSibling; //获取a的下一个兄弟节点
+var e = a.previousSibling; //获取a的上一个兄弟节点
+var f = a.firstChild; //获取a的第一个子节点
+var g = a.lastChild; //获取a的最后一个子节点
+</code></pre>
+<h3 id="背景图片居中">背景图片居中</h3>
+<pre><code class="language-css">background-image: url(xxx.jpg);
+background-size: cover;
+background-position: center center;
+</code></pre>
+<h3 id="首行缩进还有一个功能是给输入框的内容和提示一个左边距">首行缩进还有一个功能是给输入框的内容和提示一个左边距</h3>
+<pre><code class="language-css">text-indent: 46px;
+</code></pre>
+<h3 id="文字强制不换行">文字强制不换行</h3>
+<pre><code>white-space:nowrap;
+</code></pre>
+<h3 id="卡片悬浮圆角">卡片悬浮+圆角</h3>
+<pre><code class="language-css">
+
+box-shadow: 0 2px 10px 0 rgba(0,0,0,.16), 0 2px 5px 0 rgba(0,0,0,.26);
+
+box-shadow: 0 0 20px rgba(0,0,0,.5);
+ box-shadow: rgba(0,0,0,0.188235) 0px 0px 50px 0px;
+
+box-shadow: 0 0.5rem 2rem 0 #dae0eb;
+box-shadow: 0 0.5rem 2rem 0 #dae0eb;
+
+
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+/* 点击后的阴影 */
+box-shadow: 0 5px 5px -3px rgba(0,0,0,.2), 0 8px 10px 1px rgba(0,0,0,.14), 0 3px 14px 2px rgba(0,0,0,.12);
+
+box-shadow: 0 0 30px rgba(0,0,0,.8);
+
+
+
+box-shadow: 5px 5px 25px 0 rgba(46,61,73,.2);
+box-shadow: 2px 4px 8px 0 rgba(46,61,73,.2);
+
+
+box-shadow: 0 12px 20px -10px rgba(76,175,80,.28),0 4px 20px 0 rgba(0,0,0,.12),0 7px 8px -5px rgba(76,175,80,.2)!important;
+
+
+/* 内阴影 */
+box-shadow: inset 2px 0 4px #000;
+
+</code></pre>
+<h4 id="排序">排序</h4>
+<pre><code class="language-javascript">arr = arr.sort(function(a, b) {
+   return b.time - a.time;
+})
+</code></pre>
+<h4 id="截取字符串">截取字符串</h4>
+<pre><code class="language-javascript">let str = &quot;0123456789&quot;;
+
+alert(str.substring(5));------------&quot;56789&quot;
+alert(str.substring(10));-----------&quot;&quot;
+alert(str.substring(12));-----------&quot;&quot;
+alert(str.substring(-5));-----------&quot;0123456789&quot;
+alert(str.substring(-10));----------&quot;0123456789&quot;
+alert(str.substring(-12));----------&quot;0123456789&quot;
+alert(str.substring(0,5));----------&quot;01234&quot;
+alert(str.substring(0,10));---------&quot;0123456789&quot;
+alert(str.substring(0,12));---------&quot;0123456789&quot;
+alert(str.substring(2,0));----------&quot;01&quot;
+alert(str.substring(2,2));----------&quot;&quot;
+alert(str.substring(2,5));----------&quot;234&quot;
+alert(str.substring(2,12));---------&quot;23456789&quot;
+alert(str.substring(2,-2));---------&quot;01&quot;
+alert(str.substring(-1,5));---------&quot;01234&quot;
+alert(str.substring(-1,-5));--------&quot;&quot;
+alert(str.substr(0));---------------&quot;0123456789&quot;
+alert(str.substr(5));---------------&quot;56789&quot;
+alert(str.substr(10));--------------&quot;&quot;
+alert(str.substr(12));--------------&quot;&quot;
+alert(str.substr(-5));--------------&quot;0123456789&quot;
+alert(str.substr(-10));-------------&quot;0123456789&quot;
+alert(str.substr(-12));-------------&quot;0123456789&quot;
+alert(str.substr(0,5));-------------&quot;01234&quot;
+alert(str.substr(0,10));------------&quot;0123456789&quot;
+alert(str.substr(0,12));------------&quot;0123456789&quot;
+alert(str.substr(2,0));-------------&quot;&quot;
+alert(str.substr(2,2));-------------&quot;23&quot;
+alert(str.substr(2,5));-------------&quot;23456&quot;
+</code></pre>
+<h3 id="自动换行">自动换行</h3>
+<pre><code class="language-css">p{
+  word-wrap: break-word;
+  word-break: break-all;
+  overflow: hidden;
+}
+</code></pre>
+<h3 id="老版本浏览器兼容flex">老版本浏览器兼容flex</h3>
+<pre><code class="language-css">div{
+   display: -webkit-flex;
+   -webkit-justify-content: center;
+}
+</code></pre>
+<h3 id="json相关">json相关</h3>
+<pre><code>JSON.stringify  //把一个对象转换成json字符串
+JSON.parse      //把一个json字符串解析成对象。  
+</code></pre>
+<h3 id="输入框只能是数字和小数点">输入框只能是数字和小数点</h3>
+<pre><code>&lt;input v-model=&quot;item.planTime&quot;  
+onchange=&quot;if(/[^\d.]/.test(this.value)){alert('只能输入数字');this.value='';}&quot;
+onKeyUp=&quot;value=value.replace(/\D/g,'')&quot;&gt;
+</code></pre>
+<h3 id="取消掉ios上alert的头部网址信息">取消掉ios上alert的头部网址信息</h3>
+<pre><code class="language-javascript">  window.alert = function(name) {
+            var iframe = document.createElement(&quot;IFRAME&quot;);
+            iframe.style.display = &quot;none&quot;;
+            iframe.setAttribute(&quot;src&quot;, 'data:text/plain,');
+            document.documentElement.appendChild(iframe);
+            window.frames[0].window.alert(name);
+            iframe.parentNode.removeChild(iframe);
+        }
+</code></pre>
+<h3 id="git-branch-checkoutmerge">Git Branch Checkout&amp;Merge</h3>
+<pre><code class="language-javascript">开一个新分支改bug先 checkout -b 分支名
+Git push origin 分支名
+然后git branch
+Git branch -u origin/分支名
+写完代码，push之后切回原来分支
+Git merge origin/分支名
+</code></pre>
+<h3 id="删除node-modules文件夹">删除node modules文件夹</h3>
+<pre><code class="language-javascript">$ rm -rf node_modules
+</code></pre>
+<h3 id="创建本地存储与读取">创建本地存储与读取</h3>
+<pre><code class="language-javascript">sessionStorage.getItem(&quot;key&quot;)
+sessionStorage.setItem('key',valus)
+</code></pre>
+<h3 id="升级node">升级node</h3>
+<pre><code class="language-javascript">清楚node缓存；
+$  sudo npm cache clean -f  
+
+安装node版本管理工具'n';
+
+$  sudo npm install n -g
+
+使用版本管理工具安装指定node或者升级到最新node版本；
+
+$  sudo n stable  （安装node最新版本）
+</code></pre>
+<h3 id="升级yarn">升级yarn</h3>
+<pre><code class="language-javascript">yarn self-update
+</code></pre>
+<h3 id="升级vue">升级Vue</h3>
+<pre><code class="language-javascript">npm install -g @vue/cli
+# OR
+yarn global add @vue/cli
+</code></pre>
+<h3 id="升级npm">升级npm</h3>
+<pre><code>npm install -g npm
+</code></pre>
+<h3 id="安装sass">安装SASS</h3>
+<pre><code>npm install --save-dev sass-loader
+//sass-loader依赖于node-sass
+npm install --save-dev node-sass
+</code></pre>
+<h3 id="ios时间适配">IOS时间适配</h3>
+<pre><code class="language-javascript">.replace(/-/g, &quot;/&quot;).replace(/T/g, &quot; &quot;)
+//针对公司Java后台给我返回的时间数据
+</code></pre>
+<hr>
+<p>下图是在Mac sa3feri浏览器中我测试的结果（在这部分和IOS上是相同的）<br>
+我们可以看到第二种new Date结果是正确的，但是后台给我返回的是第四种，所以我们通过上述的正则来转换</p>
+<figure data-type="image" tabindex="1"><img src="http://ww1.sinaimg.cn/large/006FdCUFly1fz881y09kvj30re0f6di9.jpg" alt="" loading="lazy"></figure>
+<h3 id="timeout">Timeout()</h3>
+<pre><code class="language-javascript">    setTimeout(function() { 
+      alert(&quot;Hello&quot;);
+     }, 5000);
+ //使用箭头函数在内部可是使用Vue实例（this）
+ setTimeout(() =&gt; {
+
+ },5000);
+
+
+</code></pre>
+<h3 id="vscode几个小众提高效率的键">VSCode几个小众提高效率的键</h3>
+<pre><code class="language-javascript">Ctl + H ···············································替换
+
+Ctl + Shift + Alt + ↑ / ↓ ················向上 / 下复制当前行
+
+Alt + ↑ / ↓ ··········································向上 / 下移动当前行
+
+Ctl + Alt + ↑ / ↓································向上 / 下扩展行光标
+
+Ctl + D································选中文字相同的项
+
+</code></pre>
+<h3 id="ios-12点击输入框偏移bug解决方案">IOS 12点击输入框偏移bug解决方案</h3>
+<pre><code class="language-javascript">// 兼容部分ios手机input失焦后页面上移问题
+(function() {
+ let myFunction
+ let isWXAndIos = isWeiXinAndIos()
+ if (isWXAndIos) { // 既是微信浏览器 又是ios============（因为查到只有在微信环境下，ios手机上才会出现input失去焦点的时候页面被顶起）
+   document.body.addEventListener('focusin', () =&gt; { // 软键盘弹起事件
+     clearTimeout(myFunction)
+   })
+   document.body.addEventListener('focusout', () =&gt; { // 软键盘关闭事件
+     clearTimeout(myFunction)
+     myFunction = setTimeout(function() {
+       window.scrollTo({top: 0, left: 0, behavior: 'smooth'})// 重点  =======当键盘收起的时候让页面回到原始位置
+     }, 200)
+   })
+ }
+})()
+
+function isWeiXinAndIos() {
+ // window.navigator.userAgent属性包含了浏览器类型、版本、操作系统类型、浏览器引擎类型等信息，这个属性可以用来判断浏览器类型
+ let ua = '' + window.navigator.userAgent.toLowerCase()
+ // 通过正则表达式匹配ua中是否含有MicroMessenger字符串且是IOS系统
+ let isWeixin = /MicroMessenger/i.test(ua) // 是在微信浏览器
+ let isIos = /\(i[^;]+;( U;)? CPU.+Mac OS X/i.test(ua) // 是IOS系统
+ return isWeixin &amp;&amp; isIos
+}
+</code></pre>
+<h3 id="vue-cli-30-配置">Vue-Cli 3.0 配置</h3>
+<pre><code class="language-javascript">// vue.config.js 配置说明
+// 这里只列一部分，具体配置惨考文档啊
+module.exports = {
+   // baseUrl  type:{string} default:'/'
+   // 将部署应用程序的基本URL
+   // 将部署应用程序的基本URL。
+   // 默认情况下，Vue CLI假设您的应用程序将部署在域的根目录下。
+   // https://www.my-app.com/。如果应用程序部署在子路径上，则需要使用此选项指定子路径。例如，如果您的应用程序部署在https://www.foobar.com/my-app/，集baseUrl到'/my-app/'.
+
+   baseUrl: process.env.NODE_ENV === 'production' ? '/online/' : '/',
+
+   // outputDir: 在npm run build时 生成文件的目录 type:string, default:'dist'
+
+   // outputDir: 'dist',
+
+   // pages:{ type:Object,Default:undfind }
+   /*
+     构建多页面模式的应用程序.每个“页面”都应该有一个相应的JavaScript条目文件。该值应该是一
+     个对象，其中键是条目的名称，而该值要么是指定其条目、模板和文件名的对象，要么是指定其条目
+     的字符串，
+     注意：请保证pages里配置的路径和文件名 在你的文档目录都存在 否则启动服务会报错的
+   */
+   // pages: {
+   // index: {
+   // entry for the page
+   // entry: 'src/index/main.js',
+   // the source template
+   // template: 'public/index.html',
+   // output as dist/index.html
+   // filename: 'index.html'
+   // },
+   // when using the entry-only string format,
+   // template is inferred to be `public/subpage.html`
+   // and falls back to `public/index.html` if not found.
+   // Output filename is inferred to be `subpage.html`.
+   // subpage: 'src/subpage/main.js'
+   // },
+
+   //   lintOnSave：{ type:Boolean default:true } 问你是否使用eslint
+   lintOnSave: true,
+   // productionSourceMap：{ type:Bollean,default:true } 生产源映射
+   // 如果您不需要生产时的源映射，那么将此设置为false可以加速生产构建
+   productionSourceMap: false,
+   // devServer:{type:Object} 3个属性host,port,https
+   // 它支持webPack-dev-server的所有选项
+
+   devServer: {
+       port: 8080, // 端口号
+       host: 'localhost',
+       https: false, // https:{type:Boolean}
+       open: true, //配置自动启动浏览器
+       // proxy: 'http://localhost:4000' // 配置跨域处理,只有一个代理
+       proxy: {
+           '/api': {
+               target: 'http://192.168.2.61:8090',
+               ws: true,
+               changeOrigin: true
+           },
+           '/foo': {
+               target: '&lt;other_url&gt;'
+           }
+       },  // 配置多个代理
+   }
+}
+
+作者：WangYatao
+链接：https://www.jianshu.com/p/d29e6c834f05
+
+
+</code></pre>
+<h3 id="在vue生命周期里操作dom元素">在Vue生命周期里操作DOM元素</h3>
+<pre><code class="language-js">//这段函数需要写在axios的回调函数里
+this.$nextTick(() =&gt; {
+               //这里写
+            });
+</code></pre>
+<h3 id="vue路由后到顶部">Vue路由后到顶部</h3>
+<pre><code class="language-js">router.beforeEach((to, from, next) =&gt; {
+  document.body.scrollTop = 0;
+  next()
+});
+</code></pre>
+<h3 id="vue静态">vue静态</h3>
+<pre><code>放在static中的 文件 要用绝对路径引用，assets中的要“./”，webpack打包对于assets中的当做模块来处理
+</code></pre>
+<h3 id="循环删除数组中的某一项时">循环删除数组中的某一项时</h3>
+<pre><code>一个简单的需求是，在遍历一个数组时，移除指定的项。
+下列代码是不能正常工作的：
+</code></pre>
+<pre><code class="language-js">var elements = [1, 5, 5, 3, 5, 2, 4];
+for(var i = 0; i &lt; elements.length; i++){
+    if(elements[i] == 5){
+        elements.splice(i, 1);
+    }
+}
+</code></pre>
+<pre><code>不能正常执行的问题是，element.length是在for循环开始时就确定的snapshot，不会随着splice操作而改变。
+</code></pre>
+<p>正确的写法是：</p>
+<pre><code class="language-js">var elements = [1, 5, 5, 3, 5, 2, 4];
+for(var i = elements.length -1; i &gt;= 0 ; i--){
+    if(elements[i] == 5){
+        elements.splice(i, 1);
+    }
+}
+</code></pre>
+<p>或者</p>
+<pre><code class="language-js">        var arr = [1,2,2,3,4,5];
+        var i = arr.length;
+        while(i--){
+            console.log(i+&quot;=&quot;+arr[i]);
+            if(arr[i]==2){
+                arr.splice(i,1);
+            }
+        }
+</code></pre>
+<p>或</p>
+<pre><code class="language-js">   var arr = [1,2,2,3,4,5];
+        var len = arr.length;
+        for(var i=0;i&lt;len;i++){
+            //打印数组中的情况，便于跟踪数组中数据的变化
+            console.log(i+&quot;=&quot;+arr[i]);
+            //删除掉所有为2的元素
+            if(arr[i]==2){
+                //注意对比这行代码：删除元素后调整i的值
+                arr.splice(i--,1);
+            }
+        }
+        console.log(arr);
+</code></pre>
+<h3 id="移动端遮罩层防止影响下面的div">移动端遮罩层，防止影响下面的div</h3>
+<pre><code class="language-html">&lt;div @touchmove.prevent&gt;&lt;/div&gt;
+</code></pre>
+<h3 id="android某些浏览器overflowhidden失效">Android某些浏览器overflow：hidden失效</h3>
+<pre><code class="language-html">尽量不要相对于body进行定位，而是给他加一个父元素，
+然后相对于父元素进行定位（一般给父元素添加position：relative）,
+再给父元素加上overflow:hidden 或 overflow-x：hidden 或 overflow-y：hidden来解决。
+</code></pre>
+<h3 id="vue-gitignore">Vue gitignore</h3>
+<pre><code>.DS_Store
+/node_modules/
+/dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+/test/e2e/reports
+selenium-debug.log
+package-lock.json
+
+# Editor directories and files
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+</code></pre>
+<h3 id=""></h3>
+
+              </div>
+              <div class="toc-container">
+                <ul class="markdownIt-TOC">
+<li>
+<ul>
+<li><a href="#%E6%B0%B4%E5%B9%B3%E5%B1%85%E4%B8%AD">水平居中</a>
+<ul>
+<li><a href="#%E8%A1%8C%E5%86%85%E5%85%83%E7%B4%A0">行内元素</a></li>
+<li><a href="#%E5%9D%97%E7%BA%A7%E5%85%83%E7%B4%A0%E6%B3%A8%E6%84%8F%E5%AD%90%E5%85%83%E7%B4%A0%E8%A6%81%E8%AE%BE%E7%BD%AE%E5%AE%BD%E5%BA%A6">块级元素（注意子元素要设置宽度）</a></li>
+</ul>
+</li>
+<li><a href="#%E5%9E%82%E7%9B%B4%E5%B1%85%E4%B8%AD">垂直居中</a>
+<ul>
+<li><a href="#%E5%BC%A0%E9%91%AB%E6%97%AD-%E7%BB%9D%E5%AF%B9%E5%AE%9A%E4%BD%8D-marginauto">张鑫旭 绝对定位 + margin:auto</a></li>
+<li><a href="#table-%E5%B8%83%E5%B1%80">table 布局</a></li>
+</ul>
+</li>
+<li><a href="#%E5%A4%9A%E8%A1%8C%E6%96%87%E5%AD%97-table">多行文字 table</a>
+<ul>
+<li><a href="#%E4%B8%8D%E7%9F%A5%E9%81%93%E8%87%AA%E5%B7%B1%E9%AB%98%E5%BA%A6%E5%92%8C%E7%88%B6%E5%AE%B9%E5%99%A8%E9%AB%98%E5%BA%A6%E7%9A%84%E6%83%85%E5%86%B5%E4%B8%8B-%E5%88%A9%E7%94%A8%E7%BB%9D%E5%AF%B9%E5%AE%9A%E4%BD%8D%E5%8F%AA%E9%9C%80%E8%A6%81%E4%BB%A5%E4%B8%8B%E4%B8%89%E8%A1%8C">不知道自己高度和父容器高度的情况下, 利用绝对定位只需要以下三行：</a></li>
+<li><a href="#flex">Flex</a></li>
+<li><a href="#%E5%9D%97%E7%BA%A7%E5%85%83%E7%B4%A0%E7%BB%9D%E5%AF%B9%E5%AE%9A%E4%BD%8D-transform">块级元素：绝对定位 + transform</a></li>
+<li><a href="#%E5%9B%BE%E7%89%87%E8%B6%85%E5%87%BA%E9%83%A8%E5%88%86%E5%B1%85%E4%B8%AD%E8%A3%81%E5%89%AA">图片超出部分居中裁剪</a></li>
+<li><a href="#%E8%8E%B7%E5%8F%96%E5%B1%8F%E5%B9%95%E5%AE%BD%E9%AB%98">获取屏幕宽高</a></li>
+<li><a href="#%E6%96%87%E5%AD%97%E5%9B%BE%E7%89%87%E5%90%8C%E4%B8%80%E8%A1%8C%E5%B1%85%E4%B8%AD">文字图片同一行居中</a></li>
+<li><a href="#mac%E5%91%BD%E4%BB%A4%E8%A1%8C%E6%9C%AC%E6%AC%A1%E9%83%BD%E4%BD%BF%E7%94%A8%E6%9C%80%E9%AB%98%E6%9D%83%E9%99%90">Mac命令行本次都使用最高权限</a></li>
+<li><a href="#%E6%9F%A5%E7%9C%8B%E6%9C%AC%E6%9C%BA-ip">查看本机 ip</a></li>
+<li><a href="#nginx-%E6%9F%90%E4%BA%9B%E5%9B%BE%E7%89%87-403">Nginx 某些图片 403</a></li>
+<li><a href="#%E5%8E%9F%E7%94%9F-dom-%E6%93%8D%E4%BD%9C%E7%88%B6%E5%AD%90%E8%8A%82%E7%82%B9">原生 dom 操作父子节点</a></li>
+<li><a href="#%E8%83%8C%E6%99%AF%E5%9B%BE%E7%89%87%E5%B1%85%E4%B8%AD">背景图片居中</a></li>
+<li><a href="#%E9%A6%96%E8%A1%8C%E7%BC%A9%E8%BF%9B%E8%BF%98%E6%9C%89%E4%B8%80%E4%B8%AA%E5%8A%9F%E8%83%BD%E6%98%AF%E7%BB%99%E8%BE%93%E5%85%A5%E6%A1%86%E7%9A%84%E5%86%85%E5%AE%B9%E5%92%8C%E6%8F%90%E7%A4%BA%E4%B8%80%E4%B8%AA%E5%B7%A6%E8%BE%B9%E8%B7%9D">首行缩进还有一个功能是给输入框的内容和提示一个左边距</a></li>
+<li><a href="#%E6%96%87%E5%AD%97%E5%BC%BA%E5%88%B6%E4%B8%8D%E6%8D%A2%E8%A1%8C">文字强制不换行</a></li>
+<li><a href="#%E5%8D%A1%E7%89%87%E6%82%AC%E6%B5%AE%E5%9C%86%E8%A7%92">卡片悬浮+圆角</a>
+<ul>
+<li><a href="#%E6%8E%92%E5%BA%8F">排序</a></li>
+<li><a href="#%E6%88%AA%E5%8F%96%E5%AD%97%E7%AC%A6%E4%B8%B2">截取字符串</a></li>
+</ul>
+</li>
+<li><a href="#%E8%87%AA%E5%8A%A8%E6%8D%A2%E8%A1%8C">自动换行</a></li>
+<li><a href="#%E8%80%81%E7%89%88%E6%9C%AC%E6%B5%8F%E8%A7%88%E5%99%A8%E5%85%BC%E5%AE%B9flex">老版本浏览器兼容flex</a></li>
+<li><a href="#json%E7%9B%B8%E5%85%B3">json相关</a></li>
+<li><a href="#%E8%BE%93%E5%85%A5%E6%A1%86%E5%8F%AA%E8%83%BD%E6%98%AF%E6%95%B0%E5%AD%97%E5%92%8C%E5%B0%8F%E6%95%B0%E7%82%B9">输入框只能是数字和小数点</a></li>
+<li><a href="#%E5%8F%96%E6%B6%88%E6%8E%89ios%E4%B8%8Aalert%E7%9A%84%E5%A4%B4%E9%83%A8%E7%BD%91%E5%9D%80%E4%BF%A1%E6%81%AF">取消掉ios上alert的头部网址信息</a></li>
+<li><a href="#git-branch-checkoutmerge">Git Branch Checkout&amp;Merge</a></li>
+<li><a href="#%E5%88%A0%E9%99%A4node-modules%E6%96%87%E4%BB%B6%E5%A4%B9">删除node modules文件夹</a></li>
+<li><a href="#%E5%88%9B%E5%BB%BA%E6%9C%AC%E5%9C%B0%E5%AD%98%E5%82%A8%E4%B8%8E%E8%AF%BB%E5%8F%96">创建本地存储与读取</a></li>
+<li><a href="#%E5%8D%87%E7%BA%A7node">升级node</a></li>
+<li><a href="#%E5%8D%87%E7%BA%A7yarn">升级yarn</a></li>
+<li><a href="#%E5%8D%87%E7%BA%A7vue">升级Vue</a></li>
+<li><a href="#%E5%8D%87%E7%BA%A7npm">升级npm</a></li>
+<li><a href="#%E5%AE%89%E8%A3%85sass">安装SASS</a></li>
+<li><a href="#ios%E6%97%B6%E9%97%B4%E9%80%82%E9%85%8D">IOS时间适配</a></li>
+<li><a href="#timeout">Timeout()</a></li>
+<li><a href="#vscode%E5%87%A0%E4%B8%AA%E5%B0%8F%E4%BC%97%E6%8F%90%E9%AB%98%E6%95%88%E7%8E%87%E7%9A%84%E9%94%AE">VSCode几个小众提高效率的键</a></li>
+<li><a href="#ios-12%E7%82%B9%E5%87%BB%E8%BE%93%E5%85%A5%E6%A1%86%E5%81%8F%E7%A7%BBbug%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88">IOS 12点击输入框偏移bug解决方案</a></li>
+<li><a href="#vue-cli-30-%E9%85%8D%E7%BD%AE">Vue-Cli 3.0 配置</a></li>
+<li><a href="#%E5%9C%A8vue%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F%E9%87%8C%E6%93%8D%E4%BD%9Cdom%E5%85%83%E7%B4%A0">在Vue生命周期里操作DOM元素</a></li>
+<li><a href="#vue%E8%B7%AF%E7%94%B1%E5%90%8E%E5%88%B0%E9%A1%B6%E9%83%A8">Vue路由后到顶部</a></li>
+<li><a href="#vue%E9%9D%99%E6%80%81">vue静态</a></li>
+<li><a href="#%E5%BE%AA%E7%8E%AF%E5%88%A0%E9%99%A4%E6%95%B0%E7%BB%84%E4%B8%AD%E7%9A%84%E6%9F%90%E4%B8%80%E9%A1%B9%E6%97%B6">循环删除数组中的某一项时</a></li>
+<li><a href="#%E7%A7%BB%E5%8A%A8%E7%AB%AF%E9%81%AE%E7%BD%A9%E5%B1%82%E9%98%B2%E6%AD%A2%E5%BD%B1%E5%93%8D%E4%B8%8B%E9%9D%A2%E7%9A%84div">移动端遮罩层，防止影响下面的div</a></li>
+<li><a href="#android%E6%9F%90%E4%BA%9B%E6%B5%8F%E8%A7%88%E5%99%A8overflowhidden%E5%A4%B1%E6%95%88">Android某些浏览器overflow：hidden失效</a></li>
+<li><a href="#vue-gitignore">Vue gitignore</a></li>
+<li></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+              </div>
+            </div>
+          </article>
+        </div>
+
+        
+
+        
+          
+            <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+<script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+
+<div id="gitalk-container"></div>
+
+<script>
+
+  var gitalk = new Gitalk({
+    clientID: 'qdchenyixuan',
+    clientSecret: 'qdchenyixuan',
+    repo: 'qdchenyixuan',
+    owner: 'qdchenyixuan',
+    admin: ['qdchenyixuan'],
+    id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+    distractionFreeMode: false  // Facebook-like distraction free mode
+  })
+
+  gitalk.render('gitalk-container')
+
+</script>
+
+          
+
+          
+        
+
+        <div class="site-footer">
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | 
+  <a class="rss" href="https://clearchan.gitee.io/page/atom.xml" target="_blank">RSS</a>
+</div>
+
+<script>
+  hljs.initHighlightingOnLoad()
+
+  let mainNavLinks = document.querySelectorAll(".markdownIt-TOC a");
+
+  // This should probably be throttled.
+  // Especially because it triggers during smooth scrolling.
+  // https://lodash.com/docs/4.17.10#throttle
+  // You could do like...
+  // window.addEventListener("scroll", () => {
+  //    _.throttle(doThatStuff, 100);
+  // });
+  // Only not doing it here to keep this Pen dependency-free.
+
+  window.addEventListener("scroll", event => {
+    let fromTop = window.scrollY;
+
+    mainNavLinks.forEach((link, index) => {
+      let section = document.getElementById(decodeURI(link.hash).substring(1));
+      let nextSection = null
+      if (mainNavLinks[index + 1]) {
+        nextSection = document.getElementById(decodeURI(mainNavLinks[index + 1].hash).substring(1));
+      }
+      console.log('section.offsetHeight', section.offsetHeight);
+      if (section.offsetTop <= fromTop) {
+        if (nextSection) {
+          if (nextSection.offsetTop > fromTop) {
+            link.classList.add("current");
+          } else {
+            link.classList.remove("current");    
+          }
+        } else {
+          link.classList.add("current");
+        }
+      } else {
+        link.classList.remove("current");
+      }
+    });
+  });
+
+</script>
+
+      </div>
+    </div>
+  </body>
+</html>

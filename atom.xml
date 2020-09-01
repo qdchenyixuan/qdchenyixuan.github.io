@@ -1,0 +1,856 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://clearchan.gitee.io/page</id>
+    <title>ClearChan&apos;s Blog</title>
+    <updated>2020-09-01T04:23:19.703Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://clearchan.gitee.io/page"/>
+    <link rel="self" href="https://clearchan.gitee.io/page/atom.xml"/>
+    <subtitle>已识乾坤大，犹怜草木青</subtitle>
+    <logo>https://clearchan.gitee.io/page/images/avatar.png</logo>
+    <icon>https://clearchan.gitee.io/page/favicon.ico</icon>
+    <rights>All rights reserved 2020, ClearChan&apos;s Blog</rights>
+    <entry>
+        <title type="html"><![CDATA[读书笔记]]></title>
+        <id>https://clearchan.gitee.io/page/post/du-shu-bi-ji/</id>
+        <link href="https://clearchan.gitee.io/page/post/du-shu-bi-ji/">
+        </link>
+        <updated>2020-08-24T04:03:24.000Z</updated>
+        <content type="html"><![CDATA[<ul>
+<li>微信读书的笔记是通过<a href="https://github.com/shengqiangzhang/examples-of-web-crawlers">该Python项目</a>导出，更改pyqt_gui.py代码可实现导出全部笔记</li>
+</ul>
+<h1 id="产品类">产品类</h1>
+<h2 id="写给开发者的用户体验与交互设计课">《写给开发者的用户体验与交互设计课》</h2>
+<ul>
+<li>
+<p>在如今的软件行业里，用户体验已经是建立竞争优势的核心驱动力。实际上无论你是设计并销售软件产品（如微软），还是提供硬件（Apple）或服务（UPS快递），用户体验的重要性都毋庸置疑。</p>
+</li>
+<li>
+<p>还记得1997年Apple濒临倒闭时的事情吗？最后它通过接受一笔来自微软（后者是为了避免垄断嫌疑）的现金注资才勉强维持了下来。而今天的Apple又如何成了这个星球上市值最高的公司？答案是超棒的用户体验，消费者愿意为了它付出更高的溢价。这就可以看出如今UX是多么重要。对于企业用户，UX同样很关键。2014年12月，雅芳（Avon）公司不得不放弃了新版的订单管理软件。据《华尔街日报》报道，当时这家公司的独立销售代表们抱怨用新系统来处理日常销售工作太麻烦，太容易搞混了，以致最后纷纷离开了雅芳。</p>
+</li>
+<li>
+<p>让我们来总结一下三条推论：用户不关心你的程序，也不关心你本人。现在不会，以后也不会。你亲妈可能会，因为这程序是你写的而她很爱你，但也可能并不会。用户只关注他自己的效率或是感受。每个应用的每个用户都想要一台Donald Norman所说的“看不见的电脑”，就像同名书籍中描述的一样。</p>
+</li>
+<li>
+<p>这一章我们做些类似的事情。我们将要找出用户到底要通过软件做什么。他们想要解决什么问题，或者哪种愉悦的状态是他们想要进入并保持的？好的解决方案，或者让用户感到愉悦的特征是什么？最后还要用一种容易被开发团队消化的形式表达出这些：讲故事。</p>
+</li>
+</ul>
+<h2 id="罗永浩-创业在路上">《罗永浩 创业在路上》</h2>
+<ul>
+<li>
+<p>博朗兄弟、盛田昭夫和乔布斯</p>
+</li>
+<li>
+<p>怎样打动一个对你一无所知的牛人；怎样克服社交恐惧症，跟员工一起乘电梯；怎样在保持道德纯净的同时，避免道德洁癖；怎样面对因创业太忙而照顾不周的老婆……当然，还有他从未动摇过的愿望——做更好的产品，用产品（而不是用其他任何东西）去打动人心，在人类下一代计算平台的革命中有所作为。与“红海”“蓝海”一类的说法相比，他向往的是所有人都没见过的那片神秘海域。那才是他心中的大航海时代。</p>
+</li>
+<li>
+<p>成功的企业家不是因为碰到了知己型的投资大佬而获得了成功，而是因为成功，所以和投资大佬成了知己。</p>
+</li>
+<li>
+<p>我觉得很多人分不清正常反映问题和打小报告的区别。</p>
+</li>
+<li>
+<p>我们自己的企业在过去几年的发展过程中也走过很多非常艰难的时刻，当我们走得不顺利的时候，外面的媒体会传出大量的负面信息。这时候，那些嗅觉灵敏的公司的人力资源主管会马上过来，向我们公司内部所有优秀的骨干工程师和产品经理们伸出橄榄枝。如果作为企业的负责人和人力资源主管做不到这一点，说明他们是不合格的。<br>
+关注流失的优秀员工</p>
+</li>
+<li>
+<p>如果你对这些事情想得比较透彻的话，便会知道，公司流失人才会有各种各样的原因，当你努力挽留，拿出最大的诚意都没有成功的时候，千万不要对他有怨恨或者负面情绪，要和他保持联系。</p>
+</li>
+<li>
+<p>很多人真的非常优秀，但是他不善于表达，就会明显吃亏。因为没有人知道，能怪谁呢？</p>
+</li>
+<li>
+<p>内向型的失败者经常有一个没出息的心理就是：特别希望可以在那儿静悄悄地散发香味，别人就能闻到了。但问题是：这个世界没有那么多闲着的鼻子到处去闻。安静的美男子受到青睐的机会一定会少很多，所以你需要做一个大声喧哗的美男子，这样机会就多很多。</p>
+</li>
+<li>
+<p>他的心态仍然非常好，精神面貌很多时候比我要好，是天生赢家的状态。即使从早到晚连续工作15个小时，下班前又发现3件不顺利的事，他还可以笑咪咪地回家。</p>
+</li>
+<li>
+<p>说实话，我当时看了这个贴子，突然有一点儿心疼，我在想这孩子傻到什么程度，才会把这样一件事当成正经事来做。我估计他的生活不会是很舒服的状态，因为他要投入大量的精力和时间写这些东西。那一刻我的感觉不是生气，而是好笑且同情。</p>
+</li>
+<li>
+<p>我年轻时候经常犯的错是在三观方面对自己要求太高，由此带来的副作用是，我面对自己瞧不上的人时，会有强烈的道德优越感，后来发现这样的心态让我出错的概率变大。所以当我意识到这些问题后，便会做一些心理上的调整，这是个比较大的变化。但是这点又经常在与朋友沟通的时候被误读为，因为做企业而变得没那么纯粹了，是一个变坏或者不学好的过程。说实话，给亲朋好友讲清楚这点是很疲劳的，但这确实是我这几年比较大的一个转变。</p>
+</li>
+<li>
+<p>确实让我在某些方面比原来更骄傲了，究其原因是一些困难的时刻激发了我的逆反心理，所以在有些该坚持的事情上会比原来更坚持。这是第一种情况。<br>
+第二种情况是，我发现在做企业的同时，维持道德高尚是可以做到的，但是道德洁癖这件事是一定做不到的。比如《从0到1》那本书里面的一条理论是，一个企业要想在商业伦理道德上高尚，必须在某一领域里做到接近垄断的优势，才有可能谈及企业的高尚和伦理。否则如果你是一个为了生存苦苦挣扎的企业，为了生存，可能什么事都干得出来。所以书中举例说谷歌为什么敢讲不作恶，正是因为它在搜索市场上的垄断地位。如果大的趋势没有变化，谷歌即使现在停步下来，仅靠搜索引擎领域里的固有优势，也能维持很多年的赢利。企业只有到了这样一个点，也就是突破了“从0到1”这个点，才有资格去谈道德高尚这件事</p>
+</li>
+<li>
+<p>因为我喜欢用Kindle看书，可以做标注，事后想要复习总结，或者讲给同事听的时候，我可以在电脑版的Kindle里，把那些标注一次性高效率地筛选出来，特别方便。</p>
+</li>
+<li>
+<p>他小时候有过很多梦想，因为个人的努力和时代的机遇，能够做成一件事。</p>
+</li>
+<li>
+<p>人们贴在我身上的那些标签，其实跟我并没有很大的关系，比如“彪悍”，那是我在新东方的课上偶然讲出的一句话，却成为流传最广的话语。但这在我教书时传递给学生的价值观里只是微不足道的一部分。</p>
+</li>
+<li>
+<p>放弃了一些真诚的表达。很多话即便道理是对的，出发点是由衷的、真诚的，但如果说完之后仍有可能造成问题，我就不会说出来。</p>
+</li>
+<li>
+<p>所有的企业几乎都是大同小异，对于企业的负责人来说，最重要的永远都是找钱、找人和定战略方向这3件事。</p>
+</li>
+<li>
+<p>这种落差非常正常，我们在做工业设计和界面设计的过程中，由于经验不足而比较容易犯的错误就是，容易忽略公众接受度。因为一个好的商业设计，既要兼顾创新、差异性和设计上的美感，又要兼顾公众的接受度，这几个方面是同样重要的。但我们在创业初期，会过高估计某件事的公众接受度，所以导致很多人不习惯我们的产品设计。这种结果是很正常的。</p>
+</li>
+<li>
+<p>审美和文艺创作一样，是有标准的，有所谓的行业标准，比如我们喜欢的风格完全不一样，但如果我们有足够的专业素养，受过专业的训练，那么我即使不喜欢你的风格，也能知道你的产品在其领域里是什么样的水准，这是可以量化并判断的。</p>
+</li>
+</ul>
+<h2 id="从点子到产品">《从点子到产品》</h2>
+<ul>
+<li>
+<p>所以你会看到，很多做工具的产品都在希望能做内容，因为内容更有价值，它相比工具容易变现。而做内容的希望做社交，因为社交更有价值，证明用户在平台上互相产生关系了。做社交的想做电商，这就直接跟交易场景相关了。</p>
+</li>
+<li>
+<p>点子并不代表着任何意义。1897年，庞加莱就提出了空间相对性的概念，次年提出光速不变假设，洛伦兹变换都是他命名的。但为什么都说爱因斯坦提出了狭义相对论？因为爱因斯坦的论证是更精确、更完整的。</p>
+</li>
+<li>
+<p>3．方法看似可行，但问题却并不需要解决<br>
+这也是极容易犯的错误：我们自认为用户的问题既然是真实的，那用户就真的需要解决。这些都是所谓“想当然”的功能。比如在做快递配送产品时，发现提醒音量巨大无比，而且提醒次数看起来略多（连续4次），看似把音量修改为正常程度、提醒次数减少一半应该是合理的。但在真实情况下，快递员在户外做配送，环境嘈杂，也并不是时刻紧盯手机，所以极高的音量和多次提醒能够减少快递员错过消息的可能性。<br>
+这个陷阱提醒我们，你认为的问题，别人未必觉得是问题。即使大家都公认是问题，你也不能保证，他们就觉得这个问题是必须解决的。<br>
+用超预期的方式解决</p>
+</li>
+<li>
+<p>对于内容社区类的产品，其核心是内容产生的数量。同样的，还要看用户的活跃度，以知乎为例，还要包括用户的关注、阅读、点赞、提问和回答的行为，以及问答内容的数量和质量。只看用户量在增长，但回答者变少了、回答者的整体素质降低了，这也不算是好的数据。<br>
+发现痛点跟运营有特别紧密的联系，因为本质上，就是要观察产品是不是到了临界点，也要知道产品受到欢迎或者不被喜欢的原因。这时要跟运营的同事很好地合作，用数据来做出判断。<br>
+通过用户反馈发现痛点<br>
+数据分析能够定量地对痛点进行判断，而用户反馈可以定性地对痛点进行感知和理解。<br>
+对于产品最初的版本，用户会有很多话要说。一方面因为是比较新的产品，很多用户会表现出兴趣，以及他们为什么会感兴趣的原因；另一方面由于比较简陋，用户会有很多抱怨。这两种信息都非常重要，所以产品经理要特别善于获取它们。常见的信息获取方法包括用户在线反馈和定向访谈。<br>
+对于用户在线反馈，建议在产品上增加比较醒目的反馈入口，或者主动创建一些用户群，在产品醒目位置推荐大家加入讨论。找到第一批种子用户的工作也许是运营的同学去做的，但维护他们，产品经理是一定要参与的。<br>
+除了官方渠道之外，要多观察哪里可能会有人讨论自己的产品。常见的是应用商店的评论区、贴吧、知乎、豆瓣、微博。多跟他们接触，并且针对他们提到的观点交流，会有非常多的收获。张小龙就曾经要求他麾下的产品经理们在了解用户方面做到“1000,100,10”，也就是“每周看1000篇帖子或微博，看100篇博客，做10个CE（Customer Engagement，用户参与）”。小米科技在最初做MIUI时也要求产品经理每天都在论坛回帖。</p>
+</li>
+</ul>
+<h1 id="平面设计与ui设计">平面设计与UI设计</h1>
+<h1 id="技术">技术</h1>
+<h2 id="黑客与画家">《黑客与画家》</h2>
+<ul>
+<li>
+<p>所有学员刚刚来到YC的时候，每人都会拿到一件白色T恤衫，上面写着“Make something people want”（制造用户需要的东西）</p>
+</li>
+<li>
+<p>“任何一种艺术，不管是否重要，如果你想要在该领域出类拔萃，就必须全身心投入</p>
+</li>
+<li>
+<p>他使得那个学年如此令人难忘，以至于三十年后，他的学生依然在谈论这段往事。但是，像他这样的老师只是个别现象，无法改变整个体系。</p>
+</li>
+</ul>
+<p>几乎在任何团体中都存在等级关系。成年人在真实世界中形成的团体，一般来说，都存在某个共同目标，团体的领导者往往由最善于实现目标的人担任。学校就不一样，大多数情况下，学生内部形成的团体没有一个共同目标。但是，等级关系却不会缺席，所以孩子们的等级是凭空创造出来的。<br>
+我们有一个专门的短语描述这种情况，即在没有任何严肃标准的前提下，产生排名的情况。我们会说情况“倒退至人缘比赛”（degenerates into a popularity contest）。这正是大多数美国学校中发生的事情。某个人的排名不是根据他的真正能力，而主要根据他专攻排名的能力。这就像路易十四的宫廷￼。没有外在的对手，孩子们就互相把对方当作对手。<br>
+如果存在对于真正能力的外部测试，待在等级关系的底层也不会那么痛苦。球队的新人并不会怨恨老队员的球技，他希望有一天自己也能如此，所以很高兴有机会向老队员求教。老队员可能也会因此产生一种传帮带的光荣感（noblesse oblige）。最重要的是，老队员的地位是通过他们本身出色的能力获得的，而不是通过排挤他人获得的。<br>
+宫廷中的等级关系就完全是另一回事了。这种类型的团体贬低了每一个成员的人格。底层成员对上层成员毫无敬意，而上层成员也没有传帮带的光荣感。这里的一切就是杀与被杀的关系。<br>
+美国中学的学生内部，就是这种关系的社会。因为除了每天把小孩聚集在某个地方，关上几个小时以外，学校并没有其他的真实目的，所以学生内部形成这种关系也就很自然了。我当时并没有意识到，直到不久以前才恍然大悟，校园生活的两大恐怖之处——残忍和无聊——也是出于同样的原因。</p>
+<ul>
+<li>
+<p>现在认为，大学里教给我的编程方法都是错的。你把整个程序想清楚的时间点，应该是在编写代码的同时，而不是在编写代码之前，这与作家、画家和建筑师的做法完全一样。</p>
+</li>
+<li>
+<p>创业的另一个问题是赚钱的软件往往不是好玩的软件，两者的重叠度不高。设计编程语言是很好玩的事情，事实上，微软的第一个产品就是一种编程语言￼</p>
+</li>
+<li>
+<p>眼下想必每个人都知道，过早优化（premature optimization）是一件危险的事情。我认为，我们应该对“过早设计”（premature design）也抱有同样的担忧，不要太早决定一个程序应该怎么做。</p>
+</li>
+<li>
+<p>对待代码的认真程度远远超过我对待其他事情，如果我以这种态度对待日常生活的每件事，那么我就够资格找心理医生开处方药了。</p>
+</li>
+<li>
+<p>如果黑客只是一个负责实现领导意志的技术工人，职责就是根据规格说明书写出代码，那么他其实与一个挖水沟的工人是一样的，从这头挖到那头，仅此而已。但是，如果黑客是一个创作者，他从事的就不是机械性的工作，他必须具备灵感。<br>
+黑客就像画家，工作起来是有心理周期的。有时候，你有了一个令人兴奋的新项目，你会愿意为它一天工作16个小时。等过了这一阵，你又会觉得百无聊赖，对所有事情都提不起兴趣。</p>
+</li>
+<li>
+<p>普通黑客与优秀黑客的所有区别之中，会不会“换位思考”可能是最重要的单个因素。有些黑客很聪明，但是完全以自我为中心，根本不会设身处地为用户考虑。这样的人很难设计出优秀软件，因为他们不从用户的角度看待问题￼。</p>
+</li>
+<li>
+<p>软件的部分功能就是解释自身。为了写出优秀软件，你必须假定用户对你的软件基本上一无所知。你要明白，用户第一次使用你的软件的时候，不会预先做好功课，他们没有任何准备就开始用了，所以软件的使用方式最好能符合用户的直觉，别指望用户去读使用手册。在这方面，我见过的最佳系统是1984年原始的Macintosh电脑。它做到了那时别的软件都做不到的事情：它真的能用</p>
+</li>
+<li>
+<p>但真正令人惊恐的是，流行一时的不仅有衣服，还有道德观念。明明是专横武断、毫无依据的错误观点，但是大多数人却深信不疑，受到影响而不自知。这是非常危险的。流行的衣服，其实是很难看的衣服；流行的道德观念，其实不是善而是恶。但是，如果别人都穿流行的衣服，而你不穿，你就会遭到嘲讽；如果别人都遵守流行的道德观念，而你不遵守，结果则要严重得多，你会被解雇、流放、监禁，甚至被杀。</p>
+</li>
+<li>
+<p>一想到现在我们言之凿凿的东西，在未来人们的眼里却是荒诞不经，怎能不令人感叹呢！如果未来有人坐着时间机器来到我们这个时代，哪些话是他小心翼翼避免说出口的？</p>
+</li>
+<li>
+<p>不过，有些人的这种态度不是真的，而是装出来的。某些年轻程序员注意到了知名黑客的怪癖，就会模仿，好使自己显得更聪明。这种装出来的不服从再加上故作姿态挑毛病的态度，不仅仅令人恼火，而且实际上会延缓创新的进程。</p>
+</li>
+<li>
+<p>经济学里有一条拉弗曲线（Laffer curve），认为随着税率的上升，税收收入会先增加后减少。我认为政府的力量也是如此，随着对公民自由的限制不断上升，政府的力量会先增加后减小。</p>
+</li>
+<li>
+<p>但是，如果你控制了服务器，你就能轻而易举地增加功能，使用户可以发出寻呼、发送传真、通过电话操作网站、使用信用卡付款等。你所需要做的只是安装相关的硬件。我们总是在寻找通过硬件增加新功能的方法，因为这可以赢得用户，还可以让我们超越那些不直接控制硬件的竞争者（他们要么出售桌面软件，要么通过ISP分销互联网软件）。<br>
+由于互联网应用程序由多种软件而不是单独一个二进制文件构成，所以可以使用多种编程语言开发。如果你的产品是桌面软件，一般来说，你总是被迫采用与操作系统一致的语言，也就是C和C++。所以，这些语言就被认为是“正统的”软件开发语言（非技术人员尤其可能这样想，比如经理层和风险投资家）。但是，这其实是一个伪信号（artifact），不能因为桌面软件是这样开发的，就认定所有软件都是这样开发的。对于互联网软件，你可以使用任何你想用的语言。[插图]当今，许多顶尖黑客使用的语言与C和C++大相径庭：Perl, Python，甚至还有Lisp。</p>
+</li>
+<li>
+<p>如果你还没忘记Viaweb的旧事，你可能会觉得我这么说听上去很奇怪，因为那时我们总是宣布将有新版本推出。这只是公关伎俩啦，我们知道媒体喜欢听到版本号。如果你发布一个大的版本更新（版本号的第一位数发生变动），它们就会以大篇幅报道；如果你发布一个小的版本更新（版本号小数点后发生变化），它们最多只用一段话提一下。</p>
+</li>
+<li>
+<p>在大多数领域，看上去容易的事情，背后都需要大量的练习。练习的作用也许是训练你把刻意为之的事情变成一种自觉的行为。有时，我们的训练只是为了让身体养成下意识的反应。优秀钢琴家弹奏名曲可以不经过大脑直接完成，艺术家也是这样，熟练以后，脑海中的艺术形象会自动从手上流淌出来，仿佛有人在一旁为他打节奏一样。</p>
+</li>
+<li>
+<p>我已经预测了，一旦未来硬件的性能大幅提高将会发生什么事。新增加的运算能力都会被糟蹋掉。</p>
+</li>
+<li>
+<p>如果选择哪种语言都行，你到底使用哪一种语言？我们选择Lisp。首先，很明显，对于这个市场来说，快速开发出产品是很重要的。我们所有人都是从零开始，所以能够快速做出新功能的公司就会取得巨大的竞争优势。我们知道Lisp语言真的非常合适快速开发软件，而且我们的软件运行在服务器端，你一写完代码就能发布出去，所以这又进一步放大了快速开发的效果。</p>
+</li>
+<li>
+<p>著名散文家E.B．怀特说过，“最好的文字来自不停的修改”。所有优秀作家都知道这一点，它对软件开发也适用。设计一样东西，最重要的一点就是要经常“再设计”，编程尤其如此，再多的修改都不过分。</p>
+</li>
+<li>
+<p>与之对照，还有另一种软件设计思想，也许可以被称为“万福玛丽亚”模式。它不要求尽快拿出原型，然后再逐步优化，它的观点是你应该等到完整的成品出来以后再一下子隆重地推向市场，就像圣母玛丽亚降临一样，哪怕整个过程漫长得像橄榄球运动员长途奔袭、达阵得分也没有关系。在互联网泡沫时期，无数创业公司因为相信了这种模式而自毁前程。我还没听说过有人采用这种模式而获得成功。</p>
+</li>
+<li>
+<p>先做出原型，再逐步加工做出成品，这种方式有利于鼓舞士气，因为它使得你随时都可以看到工作的成效。开发软件的时候，我有一条规则：任何时候，代码都必须能够运行。如果你正在写的代码一个小时之后就可以看到运行结果，这好比让你看到不远处就是唾手可得的奖励，你因此会受到激励和鼓舞。</p>
+</li>
+</ul>
+<h1 id="自然科学">自然科学</h1>
+<h2 id="一分钟物理">《一分钟物理》</h2>
+<ul>
+<li>
+<p>夏天，地面附近会有类似火焰一样的透明的跳动。这是为什么？<br>
+太阳光透过空气加热地面。→地面通过热传导加热紧挨着地面的空气。→空气受热膨胀，体积增加、密度变小。→密度变小之后，空气开始上浮，并与上方的冷空气不断碰撞。→空中形成了很多不同密度空气的交界面，这些交界面随着冷热空气的碰撞不断改变。→不同密度的空气有不同的折射率，光线穿过交界面时发生折射。→于是，你就看到了像火焰一样透明的跳动。</p>
+</li>
+<li>
+<p>因为有太阳。<br>
+太阳光加热了地球表面，地球表面加热了空气。这里有个关键点：地球表面不一定是同质的。比如，海水比热容比陆地大，所以陆地在同样的日照情况下升温比海洋快，这就使陆地上方的空气比海洋上方的空气更热。我们刚刚说了，热空气要往上运动，它们走了之后在地面留下一个低气压区域。虽然海洋上方的空气也在往上运动并制造低气压，但它们没有那么热，所以上升得不如陆地上方的空气快。相对于地面来说，它们处在高气压区域。于是气体从高压区域流向低压区域，海风就从海洋吹向陆地了。而到了晚上，陆地迅速降温，这时海洋表面比陆地热，风又会从陆地吹向海洋了。<br>
+本质上讲，风就是太阳光驱动的热对流现象。</p>
+</li>
+<li>
+<p>在历史上，1秒曾经的定义是地球自转一圈的1/24的1/3600。后来，随着生产和研究的发展，我们需要越来越精确的时间度量。地球自转一圈的时间并不是很精确，它是会上下浮动的。地球12月底自转一圈的时间比春分、秋分时长了几十秒。那我们到底该用哪一天的自转来定义秒呢？<br>
+所以，我们把1秒的定义改成了铯133原子基态在0K时的两个超精细能阶间跃迁对应辐射的9192631770个周期的持续时间。这个时间间隔非常非常精确，而且在全宇宙都是一样的。之所以用9192631770这么奇葩的次数，是为了和历史上秒的定义时长尽量吻合。在2018年召开的国际计量大会上，千克也由普朗克常数重新定义，定义比秒复杂得多，但是对于科学家来说，这些定义更加精确，能更好地为科研服务。</p>
+</li>
+<li>
+<p>谣言的传播是有模式的。广为流传的谣言一定有一个特点，就是谣言的接受成本远远小于其分辨成本。（哦？下雨天打电话引雷？那我不打就好了，难道还要我专门去学一下电磁学吗？大家都很忙的。）如果商家说“家里面钱太多会引来闪电”，那我敢说这个谣言肯定流行不起来，因为不管真懂还是假懂，所有人下意识地都想反驳它。接受成本太高啦。</p>
+</li>
+<li>
+<p>主动降噪耳机的原理与之类似，麦克风接收周围的噪声，传给芯片，再让扬声器发出一个与噪声等振幅、反相位的声音，从而与原噪声相互抵消。</p>
+</li>
+<li>
+<p>使得经过晶状体折射的光线过早地汇聚，</p>
+</li>
+<li>
+<p>我们在水下睁开眼睛时，由于水的折射率大于空气，光从水中进入眼睛产生的偏折效应比在空气中小。这就相当于对光进行了一次发散，其结果就是我们看得清楚了。</p>
+</li>
+<li>
+<p>那么接下来我们就要讲到声音的吸收了。我们知道声音是一种机械波，是靠空气的振动来传播的。而空气的这种振动最害怕遇上蓬松多孔、容易发生非弹性形变的物质（如海绵），因为声音传到这些小孔腔里之后，会经过多次反射，直至把能量耗光，只有较少的一部分能逃出小孔腔，继续传播。市面上很流行的泡沫隔音板就利用了类似的原理。下雪比较安静也是因为这个。<br>
+关于吸音，其实还有很多可以说的。我们这里再简单提一下。<br>
+我们身边有很多场所是需要做吸音处理的，例如会议室、音乐厅。这里用到的吸音原理就比较多了，不单单是上面所说的小孔腔吸音。其中较常用的原理是共振吸音，一些功能性场所需要吸收特定频率的声音，这时可以用一些材料，其固有频率比较接近需要吸收的声音的频率，该频率的声音传播到材料上时，吸音材料就会发生共振，把声音吸收然后耗散掉。</p>
+</li>
+<li>
+<p>空调的工作效率受热力学第二定律限制，室内外温差越大，则制冷（制热）效率越低。所以，物理君请大家在夏天把温度调高一两摄氏度，在冬天把温度调低一两摄氏度，省电省钱，节能环保，爱护地球，造福子孙后代。</p>
+</li>
+<li>
+<p>海洋是蓝色的呢？因为海洋中发生了瑞利散射</p>
+</li>
+<li>
+<p>原因在于铁块和木块导热能力不同，铁块优异的导热能力使得热量刚传递到与手接触的部分就被其他部分带走，而木块导热能力差，吸收的热量会积累在木块和手接触的部分，所以木块摸起来更暖和一点。</p>
+</li>
+<li>
+<p>根据Mie散射理论，光强和颗粒大小成反比，因此水滴变大会导致光强变小，也就是亮度变低。</p>
+</li>
+</ul>
+<h1 id="社会心理学">社会心理学</h1>
+<h2 id="分心不是我的错-adhd">《分心不是我的错 》（ADHD）</h2>
+<ul>
+<li>
+<p>我会忘记事情，我和别人吵架，我会拖延，会迟到，我会一天到晚迷路，我脾气不好，我做事有头无尾。我有很多毛病。</p>
+</li>
+<li>
+<p>。这就是为什么在高度刺激和有压力的行业里，我们会看到更高比例的注意力缺失症患者，例如销售业、广告业和股市。</p>
+</li>
+<li>
+<p>大部分人都受不了我动个不停。可是我一面走，才能一面想事情。</p>
+</li>
+<li>
+<p>人性的黑暗面似乎总喜欢伤害弱小，尤其是如果他们惹人厌烦的时候。</p>
+</li>
+<li>
+<p>我要让你更了解自己，你才能原谅自己，这样你才能继续前行。</p>
+</li>
+<li>
+<p>非常轻松，有种如释重负的感觉，总算有个名字了。我以前以为自己是一个神经质的女人。坐不住、爬水塔、打架，一切都很混乱，现在这些行为一下子都有了名字。我自己诊断出来的时候，就已经知道要怎样处理自己的问题了。</p>
+</li>
+<li>
+<p>未经诊疗的分心者所面对的最大危机就是自我形象低落。不论这些人具有什么才能，往往发挥不出来，因为他们早已失去自信，觉得茫然，并放弃努力。卡洛琳没有放弃，最终取得了成功。</p>
+</li>
+<li>
+<p>不过我从来没有吵闹，我就是安安静静地躲到自己的想象世界里。”<br>
+“你容易觉得无聊吗?”玛丽</p>
+</li>
+<li>
+<p>结果，药物对玛丽亚没有影响。药物只对85%的成年分心者有影响，而其余15%的人不知道为什么不受影响。有的人会有副作用，有的人不喜欢服药后的感觉，有的人根本不肯服药，也有的人像玛丽亚一样是没有反应的。</p>
+</li>
+<li>
+<p>但是莫扎特就很可能有注意力缺失症。他是个极无耐性、冲动、不专心、活力充沛、有创意、不重视世俗之事、特立独行的怪人。“结构”是分心的最佳良药，看看莫扎特在乐理结构上的表现吧，结构可以抓得住这些到处神游的天才们。事实上，许多分心者以及学习障碍症患者，都具有一些我们不知道如何形容的优秀特质，我们只能称之为“特别潜力”。如果这个潜力被发觉出来，结果往往异常亮丽。爱因斯坦、爱伦坡、萧伯纳、达利都被学校开除过，爱迪生则是班中学习成绩最差的一名。美国总统林肯和汽车大王福特的老师都曾说他们毫无希望。小说家欧文高中时，因为学习障碍，差点被退学。这样的天才还有很多。许多人在学校表现得一塌糊涂，成年之后却能非常成功。可惜的是，有更多的人因为学习障碍没有被诊断出来、没有得到支持，而导致成年后一败涂地，他们的潜力始终无法发挥。</p>
+</li>
+<li>
+<p>不论成就大小,觉得自己尚未发挥潜力。<br>
+我们把这一项放在第一位,因为这是成人求助的主因。我们最常听到的是:“我就是没办法完成任何事。”以客观标准来看，这个人可能已经取得成就，也可能生活与工作一团糟，觉得自己迷失在生活的迷宫里，无法发挥自己的潜力。</p>
+</li>
+<li>
+<p>容易分心,无法专注,话说到一半或者书读到一半就会发呆或跑神,但是又能够在某些时候比一般人更专注。<br>
+这是注意力缺失症的注册商标。这种不专心听人说话不是有意的，他们只要一不小心，就会神游天外。超级专注也是特征之一，要强调的是，注意力缺失症患者不是没有专注力，而是无法控制他们的专注力。</p>
+</li>
+<li>
+<p>很难遵照规定做事。<br>
+一般人以为他对权威有反抗心理，其实是他对无聊及挫折的反抗。对他而言，遵照规则行事代表无聊，而新的行事方式则代表兴奋，不能照他自己的意思做事则会产生挫折感。</p>
+</li>
+<li>
+<p>成人往往不会表现得像儿童那样多动。比较常见的是神经质的典型动作，比如踱方步、敲手指头、一直改变坐姿、常常离开座位或房间、休息时觉得紧张等。</p>
+</li>
+</ul>
+<h1 id="宏观经济学">宏观经济学</h1>
+<h1 id="健身">健身</h1>
+<h1 id="杂项">《杂项》</h1>
+<ul>
+<li>
+<p>注意力的极简，是信息时代的必修课</p>
+</li>
+<li>
+<p>你之所以无法改变，是因为自己下了“不改变”的决心</p>
+</li>
+<li>
+<p>阿德勒心理学不是改变他人的心理学，而是追求自我的心理学</p>
+</li>
+<li>
+<p>If you have time to lean, you have time to clean.</p>
+</li>
+<li>
+<p>67%公司完全控制权（有权修改公司的章程、增资扩股）<br>
+51%相对控制权（对重大决策进行表决）<br>
+34%一票否决权（董事会的决策可以不同意）<br>
+20%界定同业竞争权力（上市公司可以合并你的报表，你就上不了市了）<br>
+10%申请解散公司权 （申请调查报表）<br>
+5%股东变动会影响上市 1%申请开股东会、监事会</p>
+</li>
+<li>
+<p>刘强东意识到，“最近一二十年来所有的创新模式，都跟降低交易成本、提高交易效率有关。要么交易成本更低，要么交易效率更高，二者必居其一，新的模式才能够生存发展。如果这两点都达不到，所有的创新都没有意义”</p>
+</li>
+</ul>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[个人摄影作品]]></title>
+        <id>https://clearchan.gitee.io/page/post/ge-ren-she-ying-zuo-pin/</id>
+        <link href="https://clearchan.gitee.io/page/post/ge-ren-she-ying-zuo-pin/">
+        </link>
+        <updated>2019-09-03T06:55:35.000Z</updated>
+        <content type="html"><![CDATA[<p><img src="http://ww1.sinaimg.cn/large/006FdCUFly1g8xpghftxpj347s2t7qv5.jpg" alt="" loading="lazy"><br>
+<img src="http://ww1.sinaimg.cn/large/006FdCUFly1g8xprdnajzj33tq25h1j6.jpg" alt="" loading="lazy"><br>
+<img src="http://ww1.sinaimg.cn/mw690/006FdCUFgy1g05srxkbrhj33j227f1ky.jpg" alt="" loading="lazy"><br>
+<img src="http://ww1.sinaimg.cn/large/006FdCUFly1g6mezl5zqfj34kw31xe81.jpg" alt="" loading="lazy"><br>
+<img src="http://ww1.sinaimg.cn/large/006FdCUFly1g8xpgkpstbj344i2gd1kz.jpg" alt="" loading="lazy"></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[常见前端代码整理]]></title>
+        <id>https://clearchan.gitee.io/page/post/chang-jian-bu-ju/</id>
+        <link href="https://clearchan.gitee.io/page/post/chang-jian-bu-ju/">
+        </link>
+        <updated>2019-09-03T04:38:14.000Z</updated>
+        <content type="html"><![CDATA[<h2 id="水平居中">水平居中</h2>
+<h3 id="行内元素">行内元素</h3>
+<pre><code class="language-css">.parent {
+  text-align: center;
+}
+</code></pre>
+<h3 id="块级元素注意子元素要设置宽度">块级元素（注意子元素要设置宽度）</h3>
+<pre><code class="language-css">.parent {
+  text-align: center;
+}
+.child {
+  width: 100px;
+  margin: auto;
+  border: 1px solid blue;
+}
+</code></pre>
+<h2 id="垂直居中">垂直居中</h2>
+<h3 id="张鑫旭-绝对定位-marginauto">张鑫旭 绝对定位 + margin:auto</h3>
+<pre><code class="language-css">.parent {
+  position: relative;
+  height: 200px;
+}
+.child {
+  width: 80px;
+  height: 40px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+</code></pre>
+<h3 id="table-布局">table 布局</h3>
+<pre><code class="language-css">.parent {
+  display: table;
+  width: 80px;
+  height: 40px;
+}
+.child {
+  display: table-cell;
+  vertical-align: middle;
+}
+</code></pre>
+<h2 id="多行文字-table">多行文字 table</h2>
+<pre><code class="language-css">/* 多行文字 */
+.parent {
+  width: 400px;
+  height: 300px;
+  display: table-cell;
+  vertical-align: middle;
+  border: 1px solid red;
+}
+.child {
+  display: inline-block;
+  vertical-align: middle;
+  background: blue;
+}
+</code></pre>
+<h3 id="不知道自己高度和父容器高度的情况下-利用绝对定位只需要以下三行">不知道自己高度和父容器高度的情况下, 利用绝对定位只需要以下三行：</h3>
+<pre><code class="language-css">parent {
+  position: relative;
+}
+
+child {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+</code></pre>
+<h3 id="flex">Flex</h3>
+<pre><code class="language-css">
+parent{
+    display:flex;/*Flex布局*/
+    display: -webkit-flex; /* Safari */
+    align-items:center;/*指定垂直居中*
+    }
+</code></pre>
+<h3 id="块级元素绝对定位-transform">块级元素：绝对定位 + transform</h3>
+<pre><code class="language-css">.parent {
+  position: relative;
+  height: 200px;
+}
+.child {
+  width: 80px;
+  height: 40px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background: blue;
+}
+</code></pre>
+<hr>
+<h3 id="图片超出部分居中裁剪">图片超出部分居中裁剪</h3>
+<pre><code class="language-css">img {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  height: 60%;
+  width: auto;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+</code></pre>
+<h3 id="获取屏幕宽高">获取屏幕宽高</h3>
+<pre><code class="language-javascript">document.documentElement.clientWidth;
+document.documentElement.clientHeight;
+</code></pre>
+<h3 id="文字图片同一行居中">文字图片同一行居中</h3>
+<pre><code class="language-css">vertical-align: middle;
+//给文字添加
+</code></pre>
+<h3 id="mac命令行本次都使用最高权限">Mac命令行本次都使用最高权限</h3>
+<pre><code>sudo -i
+</code></pre>
+<h3 id="查看本机-ip">查看本机 ip</h3>
+<pre><code>ipconfig getifaddr en0
+</code></pre>
+<h3 id="nginx-某些图片-403">Nginx 某些图片 403</h3>
+<pre><code>user root owner;
+</code></pre>
+<h3 id="原生-dom-操作父子节点">原生 dom 操作父子节点</h3>
+<pre><code class="language-js">var a = document.getElementById(&quot;dom&quot;);
+del_space(a); //清理空格
+var b = a.childNodes; //获取a的全部子节点；
+var c = a.parentNode; //获取a的父节点；
+var d = a.nextSibling; //获取a的下一个兄弟节点
+var e = a.previousSibling; //获取a的上一个兄弟节点
+var f = a.firstChild; //获取a的第一个子节点
+var g = a.lastChild; //获取a的最后一个子节点
+</code></pre>
+<h3 id="背景图片居中">背景图片居中</h3>
+<pre><code class="language-css">background-image: url(xxx.jpg);
+background-size: cover;
+background-position: center center;
+</code></pre>
+<h3 id="首行缩进还有一个功能是给输入框的内容和提示一个左边距">首行缩进还有一个功能是给输入框的内容和提示一个左边距</h3>
+<pre><code class="language-css">text-indent: 46px;
+</code></pre>
+<h3 id="文字强制不换行">文字强制不换行</h3>
+<pre><code>white-space:nowrap;
+</code></pre>
+<h3 id="卡片悬浮圆角">卡片悬浮+圆角</h3>
+<pre><code class="language-css">
+
+box-shadow: 0 2px 10px 0 rgba(0,0,0,.16), 0 2px 5px 0 rgba(0,0,0,.26);
+
+box-shadow: 0 0 20px rgba(0,0,0,.5);
+ box-shadow: rgba(0,0,0,0.188235) 0px 0px 50px 0px;
+
+box-shadow: 0 0.5rem 2rem 0 #dae0eb;
+box-shadow: 0 0.5rem 2rem 0 #dae0eb;
+
+
+    border-top-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+/* 点击后的阴影 */
+box-shadow: 0 5px 5px -3px rgba(0,0,0,.2), 0 8px 10px 1px rgba(0,0,0,.14), 0 3px 14px 2px rgba(0,0,0,.12);
+
+box-shadow: 0 0 30px rgba(0,0,0,.8);
+
+
+
+box-shadow: 5px 5px 25px 0 rgba(46,61,73,.2);
+box-shadow: 2px 4px 8px 0 rgba(46,61,73,.2);
+
+
+box-shadow: 0 12px 20px -10px rgba(76,175,80,.28),0 4px 20px 0 rgba(0,0,0,.12),0 7px 8px -5px rgba(76,175,80,.2)!important;
+
+
+/* 内阴影 */
+box-shadow: inset 2px 0 4px #000;
+
+</code></pre>
+<h4 id="排序">排序</h4>
+<pre><code class="language-javascript">arr = arr.sort(function(a, b) {
+   return b.time - a.time;
+})
+</code></pre>
+<h4 id="截取字符串">截取字符串</h4>
+<pre><code class="language-javascript">let str = &quot;0123456789&quot;;
+
+alert(str.substring(5));------------&quot;56789&quot;
+alert(str.substring(10));-----------&quot;&quot;
+alert(str.substring(12));-----------&quot;&quot;
+alert(str.substring(-5));-----------&quot;0123456789&quot;
+alert(str.substring(-10));----------&quot;0123456789&quot;
+alert(str.substring(-12));----------&quot;0123456789&quot;
+alert(str.substring(0,5));----------&quot;01234&quot;
+alert(str.substring(0,10));---------&quot;0123456789&quot;
+alert(str.substring(0,12));---------&quot;0123456789&quot;
+alert(str.substring(2,0));----------&quot;01&quot;
+alert(str.substring(2,2));----------&quot;&quot;
+alert(str.substring(2,5));----------&quot;234&quot;
+alert(str.substring(2,12));---------&quot;23456789&quot;
+alert(str.substring(2,-2));---------&quot;01&quot;
+alert(str.substring(-1,5));---------&quot;01234&quot;
+alert(str.substring(-1,-5));--------&quot;&quot;
+alert(str.substr(0));---------------&quot;0123456789&quot;
+alert(str.substr(5));---------------&quot;56789&quot;
+alert(str.substr(10));--------------&quot;&quot;
+alert(str.substr(12));--------------&quot;&quot;
+alert(str.substr(-5));--------------&quot;0123456789&quot;
+alert(str.substr(-10));-------------&quot;0123456789&quot;
+alert(str.substr(-12));-------------&quot;0123456789&quot;
+alert(str.substr(0,5));-------------&quot;01234&quot;
+alert(str.substr(0,10));------------&quot;0123456789&quot;
+alert(str.substr(0,12));------------&quot;0123456789&quot;
+alert(str.substr(2,0));-------------&quot;&quot;
+alert(str.substr(2,2));-------------&quot;23&quot;
+alert(str.substr(2,5));-------------&quot;23456&quot;
+</code></pre>
+<h3 id="自动换行">自动换行</h3>
+<pre><code class="language-css">p{
+  word-wrap: break-word;
+  word-break: break-all;
+  overflow: hidden;
+}
+</code></pre>
+<h3 id="老版本浏览器兼容flex">老版本浏览器兼容flex</h3>
+<pre><code class="language-css">div{
+   display: -webkit-flex;
+   -webkit-justify-content: center;
+}
+</code></pre>
+<h3 id="json相关">json相关</h3>
+<pre><code>JSON.stringify  //把一个对象转换成json字符串
+JSON.parse      //把一个json字符串解析成对象。  
+</code></pre>
+<h3 id="输入框只能是数字和小数点">输入框只能是数字和小数点</h3>
+<pre><code>&lt;input v-model=&quot;item.planTime&quot;  
+onchange=&quot;if(/[^\d.]/.test(this.value)){alert('只能输入数字');this.value='';}&quot;
+onKeyUp=&quot;value=value.replace(/\D/g,'')&quot;&gt;
+</code></pre>
+<h3 id="取消掉ios上alert的头部网址信息">取消掉ios上alert的头部网址信息</h3>
+<pre><code class="language-javascript">  window.alert = function(name) {
+            var iframe = document.createElement(&quot;IFRAME&quot;);
+            iframe.style.display = &quot;none&quot;;
+            iframe.setAttribute(&quot;src&quot;, 'data:text/plain,');
+            document.documentElement.appendChild(iframe);
+            window.frames[0].window.alert(name);
+            iframe.parentNode.removeChild(iframe);
+        }
+</code></pre>
+<h3 id="git-branch-checkoutmerge">Git Branch Checkout&amp;Merge</h3>
+<pre><code class="language-javascript">开一个新分支改bug先 checkout -b 分支名
+Git push origin 分支名
+然后git branch
+Git branch -u origin/分支名
+写完代码，push之后切回原来分支
+Git merge origin/分支名
+</code></pre>
+<h3 id="删除node-modules文件夹">删除node modules文件夹</h3>
+<pre><code class="language-javascript">$ rm -rf node_modules
+</code></pre>
+<h3 id="创建本地存储与读取">创建本地存储与读取</h3>
+<pre><code class="language-javascript">sessionStorage.getItem(&quot;key&quot;)
+sessionStorage.setItem('key',valus)
+</code></pre>
+<h3 id="升级node">升级node</h3>
+<pre><code class="language-javascript">清楚node缓存；
+$  sudo npm cache clean -f  
+
+安装node版本管理工具'n';
+
+$  sudo npm install n -g
+
+使用版本管理工具安装指定node或者升级到最新node版本；
+
+$  sudo n stable  （安装node最新版本）
+</code></pre>
+<h3 id="升级yarn">升级yarn</h3>
+<pre><code class="language-javascript">yarn self-update
+</code></pre>
+<h3 id="升级vue">升级Vue</h3>
+<pre><code class="language-javascript">npm install -g @vue/cli
+# OR
+yarn global add @vue/cli
+</code></pre>
+<h3 id="升级npm">升级npm</h3>
+<pre><code>npm install -g npm
+</code></pre>
+<h3 id="安装sass">安装SASS</h3>
+<pre><code>npm install --save-dev sass-loader
+//sass-loader依赖于node-sass
+npm install --save-dev node-sass
+</code></pre>
+<h3 id="ios时间适配">IOS时间适配</h3>
+<pre><code class="language-javascript">.replace(/-/g, &quot;/&quot;).replace(/T/g, &quot; &quot;)
+//针对公司Java后台给我返回的时间数据
+</code></pre>
+<hr>
+<p>下图是在Mac sa3feri浏览器中我测试的结果（在这部分和IOS上是相同的）<br>
+我们可以看到第二种new Date结果是正确的，但是后台给我返回的是第四种，所以我们通过上述的正则来转换</p>
+<figure data-type="image" tabindex="1"><img src="http://ww1.sinaimg.cn/large/006FdCUFly1fz881y09kvj30re0f6di9.jpg" alt="" loading="lazy"></figure>
+<h3 id="timeout">Timeout()</h3>
+<pre><code class="language-javascript">    setTimeout(function() { 
+      alert(&quot;Hello&quot;);
+     }, 5000);
+ //使用箭头函数在内部可是使用Vue实例（this）
+ setTimeout(() =&gt; {
+
+ },5000);
+
+
+</code></pre>
+<h3 id="vscode几个小众提高效率的键">VSCode几个小众提高效率的键</h3>
+<pre><code class="language-javascript">Ctl + H ···············································替换
+
+Ctl + Shift + Alt + ↑ / ↓ ················向上 / 下复制当前行
+
+Alt + ↑ / ↓ ··········································向上 / 下移动当前行
+
+Ctl + Alt + ↑ / ↓································向上 / 下扩展行光标
+
+Ctl + D································选中文字相同的项
+
+</code></pre>
+<h3 id="ios-12点击输入框偏移bug解决方案">IOS 12点击输入框偏移bug解决方案</h3>
+<pre><code class="language-javascript">// 兼容部分ios手机input失焦后页面上移问题
+(function() {
+ let myFunction
+ let isWXAndIos = isWeiXinAndIos()
+ if (isWXAndIos) { // 既是微信浏览器 又是ios============（因为查到只有在微信环境下，ios手机上才会出现input失去焦点的时候页面被顶起）
+   document.body.addEventListener('focusin', () =&gt; { // 软键盘弹起事件
+     clearTimeout(myFunction)
+   })
+   document.body.addEventListener('focusout', () =&gt; { // 软键盘关闭事件
+     clearTimeout(myFunction)
+     myFunction = setTimeout(function() {
+       window.scrollTo({top: 0, left: 0, behavior: 'smooth'})// 重点  =======当键盘收起的时候让页面回到原始位置
+     }, 200)
+   })
+ }
+})()
+
+function isWeiXinAndIos() {
+ // window.navigator.userAgent属性包含了浏览器类型、版本、操作系统类型、浏览器引擎类型等信息，这个属性可以用来判断浏览器类型
+ let ua = '' + window.navigator.userAgent.toLowerCase()
+ // 通过正则表达式匹配ua中是否含有MicroMessenger字符串且是IOS系统
+ let isWeixin = /MicroMessenger/i.test(ua) // 是在微信浏览器
+ let isIos = /\(i[^;]+;( U;)? CPU.+Mac OS X/i.test(ua) // 是IOS系统
+ return isWeixin &amp;&amp; isIos
+}
+</code></pre>
+<h3 id="vue-cli-30-配置">Vue-Cli 3.0 配置</h3>
+<pre><code class="language-javascript">// vue.config.js 配置说明
+// 这里只列一部分，具体配置惨考文档啊
+module.exports = {
+   // baseUrl  type:{string} default:'/'
+   // 将部署应用程序的基本URL
+   // 将部署应用程序的基本URL。
+   // 默认情况下，Vue CLI假设您的应用程序将部署在域的根目录下。
+   // https://www.my-app.com/。如果应用程序部署在子路径上，则需要使用此选项指定子路径。例如，如果您的应用程序部署在https://www.foobar.com/my-app/，集baseUrl到'/my-app/'.
+
+   baseUrl: process.env.NODE_ENV === 'production' ? '/online/' : '/',
+
+   // outputDir: 在npm run build时 生成文件的目录 type:string, default:'dist'
+
+   // outputDir: 'dist',
+
+   // pages:{ type:Object,Default:undfind }
+   /*
+     构建多页面模式的应用程序.每个“页面”都应该有一个相应的JavaScript条目文件。该值应该是一
+     个对象，其中键是条目的名称，而该值要么是指定其条目、模板和文件名的对象，要么是指定其条目
+     的字符串，
+     注意：请保证pages里配置的路径和文件名 在你的文档目录都存在 否则启动服务会报错的
+   */
+   // pages: {
+   // index: {
+   // entry for the page
+   // entry: 'src/index/main.js',
+   // the source template
+   // template: 'public/index.html',
+   // output as dist/index.html
+   // filename: 'index.html'
+   // },
+   // when using the entry-only string format,
+   // template is inferred to be `public/subpage.html`
+   // and falls back to `public/index.html` if not found.
+   // Output filename is inferred to be `subpage.html`.
+   // subpage: 'src/subpage/main.js'
+   // },
+
+   //   lintOnSave：{ type:Boolean default:true } 问你是否使用eslint
+   lintOnSave: true,
+   // productionSourceMap：{ type:Bollean,default:true } 生产源映射
+   // 如果您不需要生产时的源映射，那么将此设置为false可以加速生产构建
+   productionSourceMap: false,
+   // devServer:{type:Object} 3个属性host,port,https
+   // 它支持webPack-dev-server的所有选项
+
+   devServer: {
+       port: 8080, // 端口号
+       host: 'localhost',
+       https: false, // https:{type:Boolean}
+       open: true, //配置自动启动浏览器
+       // proxy: 'http://localhost:4000' // 配置跨域处理,只有一个代理
+       proxy: {
+           '/api': {
+               target: 'http://192.168.2.61:8090',
+               ws: true,
+               changeOrigin: true
+           },
+           '/foo': {
+               target: '&lt;other_url&gt;'
+           }
+       },  // 配置多个代理
+   }
+}
+
+作者：WangYatao
+链接：https://www.jianshu.com/p/d29e6c834f05
+
+
+</code></pre>
+<h3 id="在vue生命周期里操作dom元素">在Vue生命周期里操作DOM元素</h3>
+<pre><code class="language-js">//这段函数需要写在axios的回调函数里
+this.$nextTick(() =&gt; {
+               //这里写
+            });
+</code></pre>
+<h3 id="vue路由后到顶部">Vue路由后到顶部</h3>
+<pre><code class="language-js">router.beforeEach((to, from, next) =&gt; {
+  document.body.scrollTop = 0;
+  next()
+});
+</code></pre>
+<h3 id="vue静态">vue静态</h3>
+<pre><code>放在static中的 文件 要用绝对路径引用，assets中的要“./”，webpack打包对于assets中的当做模块来处理
+</code></pre>
+<h3 id="循环删除数组中的某一项时">循环删除数组中的某一项时</h3>
+<pre><code>一个简单的需求是，在遍历一个数组时，移除指定的项。
+下列代码是不能正常工作的：
+</code></pre>
+<pre><code class="language-js">var elements = [1, 5, 5, 3, 5, 2, 4];
+for(var i = 0; i &lt; elements.length; i++){
+    if(elements[i] == 5){
+        elements.splice(i, 1);
+    }
+}
+</code></pre>
+<pre><code>不能正常执行的问题是，element.length是在for循环开始时就确定的snapshot，不会随着splice操作而改变。
+</code></pre>
+<p>正确的写法是：</p>
+<pre><code class="language-js">var elements = [1, 5, 5, 3, 5, 2, 4];
+for(var i = elements.length -1; i &gt;= 0 ; i--){
+    if(elements[i] == 5){
+        elements.splice(i, 1);
+    }
+}
+</code></pre>
+<p>或者</p>
+<pre><code class="language-js">        var arr = [1,2,2,3,4,5];
+        var i = arr.length;
+        while(i--){
+            console.log(i+&quot;=&quot;+arr[i]);
+            if(arr[i]==2){
+                arr.splice(i,1);
+            }
+        }
+</code></pre>
+<p>或</p>
+<pre><code class="language-js">   var arr = [1,2,2,3,4,5];
+        var len = arr.length;
+        for(var i=0;i&lt;len;i++){
+            //打印数组中的情况，便于跟踪数组中数据的变化
+            console.log(i+&quot;=&quot;+arr[i]);
+            //删除掉所有为2的元素
+            if(arr[i]==2){
+                //注意对比这行代码：删除元素后调整i的值
+                arr.splice(i--,1);
+            }
+        }
+        console.log(arr);
+</code></pre>
+<h3 id="移动端遮罩层防止影响下面的div">移动端遮罩层，防止影响下面的div</h3>
+<pre><code class="language-html">&lt;div @touchmove.prevent&gt;&lt;/div&gt;
+</code></pre>
+<h3 id="android某些浏览器overflowhidden失效">Android某些浏览器overflow：hidden失效</h3>
+<pre><code class="language-html">尽量不要相对于body进行定位，而是给他加一个父元素，
+然后相对于父元素进行定位（一般给父元素添加position：relative）,
+再给父元素加上overflow:hidden 或 overflow-x：hidden 或 overflow-y：hidden来解决。
+</code></pre>
+<h3 id="vue-gitignore">Vue gitignore</h3>
+<pre><code>.DS_Store
+/node_modules/
+/dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+/test/e2e/reports
+selenium-debug.log
+package-lock.json
+
+# Editor directories and files
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+</code></pre>
+<h3 id=""></h3>
+]]></content>
+    </entry>
+</feed>
