@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://clearchan.gitee.io/page</id>
+    <id>https://qdchenyixuan.github.io</id>
     <title>ClearChan&apos;s Blog</title>
-    <updated>2020-09-01T04:23:19.703Z</updated>
+    <updated>2020-09-01T04:23:33.703Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://clearchan.gitee.io/page"/>
-    <link rel="self" href="https://clearchan.gitee.io/page/atom.xml"/>
+    <link rel="alternate" href="https://qdchenyixuan.github.io"/>
+    <link rel="self" href="https://qdchenyixuan.github.io/atom.xml"/>
     <subtitle>已识乾坤大，犹怜草木青</subtitle>
-    <logo>https://clearchan.gitee.io/page/images/avatar.png</logo>
-    <icon>https://clearchan.gitee.io/page/favicon.ico</icon>
+    <logo>https://qdchenyixuan.github.io/images/avatar.png</logo>
+    <icon>https://qdchenyixuan.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, ClearChan&apos;s Blog</rights>
     <entry>
         <title type="html"><![CDATA[读书笔记]]></title>
-        <id>https://clearchan.gitee.io/page/post/du-shu-bi-ji/</id>
-        <link href="https://clearchan.gitee.io/page/post/du-shu-bi-ji/">
+        <id>https://qdchenyixuan.github.io/post/du-shu-bi-ji/</id>
+        <link href="https://qdchenyixuan.github.io/post/du-shu-bi-ji/">
         </link>
         <updated>2020-08-24T04:03:24.000Z</updated>
         <content type="html"><![CDATA[<ul>
@@ -329,8 +329,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[个人摄影作品]]></title>
-        <id>https://clearchan.gitee.io/page/post/ge-ren-she-ying-zuo-pin/</id>
-        <link href="https://clearchan.gitee.io/page/post/ge-ren-she-ying-zuo-pin/">
+        <id>https://qdchenyixuan.github.io/post/ge-ren-she-ying-zuo-pin/</id>
+        <link href="https://qdchenyixuan.github.io/post/ge-ren-she-ying-zuo-pin/">
         </link>
         <updated>2019-09-03T06:55:35.000Z</updated>
         <content type="html"><![CDATA[<p><img src="http://ww1.sinaimg.cn/large/006FdCUFly1g8xpghftxpj347s2t7qv5.jpg" alt="" loading="lazy"><br>
@@ -342,8 +342,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[常见前端代码整理]]></title>
-        <id>https://clearchan.gitee.io/page/post/chang-jian-bu-ju/</id>
-        <link href="https://clearchan.gitee.io/page/post/chang-jian-bu-ju/">
+        <id>https://qdchenyixuan.github.io/post/chang-jian-bu-ju/</id>
+        <link href="https://qdchenyixuan.github.io/post/chang-jian-bu-ju/">
         </link>
         <updated>2019-09-03T04:38:14.000Z</updated>
         <content type="html"><![CDATA[<h2 id="水平居中">水平居中</h2>
