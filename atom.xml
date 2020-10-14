@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://qdchenyixuan.github.io</id>
     <title>ClearChan&apos;s Blog</title>
-    <updated>2020-09-01T05:38:09.750Z</updated>
+    <updated>2020-10-14T14:01:12.784Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://qdchenyixuan.github.io"/>
     <link rel="self" href="https://qdchenyixuan.github.io/atom.xml"/>
@@ -10,6 +10,31 @@
     <logo>https://qdchenyixuan.github.io/images/avatar.png</logo>
     <icon>https://qdchenyixuan.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, ClearChan&apos;s Blog</rights>
+    <entry>
+        <title type="html"><![CDATA[VSCode/Vue等 web开发环境配置相关]]></title>
+        <id>https://qdchenyixuan.github.io/post/2Byp1hsam/</id>
+        <link href="https://qdchenyixuan.github.io/post/2Byp1hsam/">
+        </link>
+        <updated>2020-10-14T13:58:01.000Z</updated>
+        <content type="html"><![CDATA[<pre><code>### VSCode中Vue不格式化换行方法：
+```
+&quot;vetur.format.defaultFormatterOptions&quot;: {
+    &quot;js-beautify-html&quot;: {
+        &quot;wrap_attributes&quot;: &quot;aligned-multiple&quot;
+    },
+    &quot;prettyhtml&quot;: {
+        &quot;printWidth&quot;: 100,
+        &quot;singleQuote&quot;: false,
+        &quot;wrapAttributes&quot;: false,
+        &quot;sortAttributes&quot;: false
+    }
+},
+&quot;vetur.format.defaultFormatter.html&quot;: &quot;js-beautify-html&quot;,
+```
+</code></pre>
+<p><a href="https://segmentfault.com/q/1010000012350078">原文</a></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[读书笔记]]></title>
         <id>https://qdchenyixuan.github.io/post/du-shu-bi-ji/</id>

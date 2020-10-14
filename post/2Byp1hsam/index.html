@@ -2,7 +2,7 @@
   <head>
     <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>关于 | ClearChan&#39;s Blog</title>
+<title>VSCode/Vue等 web开发环境配置相关 | ClearChan&#39;s Blog</title>
 <meta name="description" content="已识乾坤大，犹怜草木青" />
 <link rel="shortcut icon" href="https://qdchenyixuan.github.io/favicon.ico?v=1602684070552">
 <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
@@ -79,11 +79,11 @@
         <div class="post-detail">
           <article class="post">
             <h2 class="post-title">
-              关于
+              VSCode/Vue等 web开发环境配置相关
             </h2>
             <div class="post-info">
               <span>
-                2019-01-25
+                2020-10-14
               </span>
               <span>
                 1 min read
@@ -93,7 +93,23 @@
             
             <div class="post-content-wrapper">
               <div class="post-content">
-                <p>这是关于的页面，可以在这里向世界介绍你！</p>
+                <pre><code>### VSCode中Vue不格式化换行方法：
+```
+&quot;vetur.format.defaultFormatterOptions&quot;: {
+    &quot;js-beautify-html&quot;: {
+        &quot;wrap_attributes&quot;: &quot;aligned-multiple&quot;
+    },
+    &quot;prettyhtml&quot;: {
+        &quot;printWidth&quot;: 100,
+        &quot;singleQuote&quot;: false,
+        &quot;wrapAttributes&quot;: false,
+        &quot;sortAttributes&quot;: false
+    }
+},
+&quot;vetur.format.defaultFormatter.html&quot;: &quot;js-beautify-html&quot;,
+```
+</code></pre>
+<p><a href="https://segmentfault.com/q/1010000012350078">原文</a></p>
 
               </div>
               <div class="toc-container">
@@ -103,6 +119,15 @@
           </article>
         </div>
 
+        
+          <div class="next-post">
+            <div class="next">下一篇</div>
+            <a href="https://qdchenyixuan.github.io/post/du-shu-bi-ji/">
+              <h3 class="post-title">
+                读书笔记
+              </h3>
+            </a>
+          </div>
         
 
         
