@@ -104,7 +104,7 @@ theme: typography
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: https://github.com/qdchenyixuan/qdchenyixuan.github.io
+  repo: https://github.com/qdchenyixuan/qdchenyixuan.github.io.git
   branch: master
 #
 
