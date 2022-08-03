@@ -44,7 +44,7 @@ post_asset_folder: false
 relative_link: false
 future: true
 highlight:
-  enable: true
+  enable: false
   line_number: true
   auto_detect: false
   tab_replace: ""
@@ -99,11 +99,12 @@ ignore:
 ## Themes: https://hexo.io/themes/
 theme: typography
 
+# we will use the prism plugin instead
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: https://github.com/qdchenyixuan/qdchenyixuan.github.io.git
+  repo: https://github.com/qdchenyixuan/qdchenyixuan.github.io
   branch: master
 #
 
