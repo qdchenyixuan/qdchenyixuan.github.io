@@ -105,9 +105,7 @@ deploy:
   type: git
   repo: https://github.com/qdchenyixuan/qdchenyixuan.github.io.git
   branch: master
-
-highlight:
-  enable: false
+#
 
 plugin:
   - hexo-generator-category-enhance
