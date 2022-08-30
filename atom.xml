@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2022-08-03T02:09:00.952Z</updated>
+  <updated>2022-08-11T01:29:10.736Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,11 +17,54 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>postName</title>
+    <link href="http://example.com/2022/08/11/postName/"/>
+    <id>http://example.com/2022/08/11/postName/</id>
+    <published>2022-08-11T01:28:44.000Z</published>
+    <updated>2022-08-11T01:29:10.736Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h3 id=&quot;test&quot;&gt;&lt;a href=&quot;#test&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>ACG类钢琴谱寻找方法</title>
+    <link href="http://example.com/2022/08/11/piano/"/>
+    <id>http://example.com/2022/08/11/piano/</id>
+    <published>2022-08-11T00:17:12.641Z</published>
+    <updated>2022-08-11T00:18:24.983Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;平时喜欢演奏 ACG 曲目的，分享两个冷门但有效的找曲谱方法：&lt;/p&gt;
+&lt;h3 id=&quot;方式一：musescore&quot;&gt;&lt;a href=&quot;#方式一：musescore&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>Hello World</title>
     <link href="http://example.com/2022/08/03/hello-world/"/>
     <id>http://example.com/2022/08/03/hello-world/</id>
     <published>2022-08-03T02:09:00.951Z</published>
-    <updated>2022-08-03T02:09:00.952Z</updated>
+    <updated>2022-08-30T03:27:04.357Z</updated>
     
     
       
